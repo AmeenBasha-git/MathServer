@@ -33,6 +33,8 @@ Publish the website in the given URL.
 
 ## PROGRAM :
 ```
+math.html
+
 {%load static%}
 <html lang="en" >
 <head>
@@ -108,7 +110,8 @@ Publish the website in the given URL.
 
 </body>
 </html>
-
+```
+```
 view.py
 
 
@@ -131,7 +134,8 @@ def powerlamp(request):
         context['r']=r 
         print('Power=',power) 
     return render(request,'msapp/vijay.html',context)
-
+```
+```
     urls.py
 
     from django.contrib import admin 
